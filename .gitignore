@@ -1,0 +1,97 @@
+# =========================
+# ROOT
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# VIRTUAL ENVS
+# =========================
+venv/
+.venv/
+env/
+nvenv/
+newvenv/
+
+# =========================
+# ENV FILES
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# PYTHON BUILD
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# DATABASES / GENERATED DATA
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+backend/data/*.db
+backend/data/*.sqlite*
+backend/data/*.csv
+backend/data/*.parquet
+
+# =========================
+# MODELS / BINARIES
+# =========================
+*.bin
+*.pkl
+*.joblib
+backend/models/*.bin
+backend/models/*.pkl
+
+# =========================
+# FRONTEND
+# =========================
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/.cache/
+frontend/coverage/
+frontend/.vscode/
+
+# =========================
+# TEST / REPORT ARTIFACTS
+# =========================
+.coverage
+htmlcov/
+coverage.xml
+pytestdebug.log
+
+# =========================
+# EXPORTS / GENERATED REPORTS
+# =========================
+exports/
+*.pdf
+*.xlsx
+*.html
+
+# =========================
+# TEMP / RUNTIME
+# =========================
+tmp/
+temp/
+*.tmp
