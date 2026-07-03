@@ -4,6 +4,10 @@ An enterprise-grade, AI-powered Business Intelligence platform that allows users
 
 ## 🏗 System Architecture
 
+<p align="center">
+  <img src="Architecture Diagram.png" alt="System Architecture" width="900">
+</p>
+
 The application follows a decoupled modern architecture:
 
 1. **Frontend**: Angular 21 application utilizing Angular Material for clean, Stripe-like UI aesthetics. It communicates with the backend via RESTful APIs.
